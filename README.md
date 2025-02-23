@@ -2,6 +2,18 @@
 
 Este é um projeto de um **Sistema de Lista de Produtos** desenvolvido em **Java (Spring Boot)** para o backend e **HTML/CSS/JavaScript** para o frontend e **Banco da Dados H2**. O sistema permite adicionar, editar, visualizar e excluir produtos em uma lista, com uma interface moderna e responsiva.
 
+# Sistema de Lista de Produtos
+
+[](https://github.com/Alexdevsoft/sistema-de-lista-produtos/actions/workflows/build.yml/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Java Version](https://img.shields.io/badge/Java-17-blue.svg)](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
+[![Powered by Spring Boot](https://img.shields.io/badge/Powered%20by-Spring%20Boot-brightgreen.svg)](https://spring.io/projects/spring-boot)
+[![Database-H2](https://img.shields.io/badge/Database-H2-blue.svg)](https://www.h2database.com)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Maven](https://img.shields.io/badge/Maven-CC0000?style=flat&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
+[![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat&logo=thymeleaf&logoColor=white)](https://www.thymeleaf.org/)
 ---
 
 ## Funcionalidades
@@ -116,6 +128,9 @@ Este é um projeto de um **Sistema de Lista de Produtos** desenvolvido em **Java
 # Modal de Adicionar Produto
 
 [![modal.png](https://i.postimg.cc/qRNGTfRh/modal.png)](https://postimg.cc/9Rj9dnyC)
+
+# Produto Adicionado
+[![lista-de-produtos2.png](https://i.postimg.cc/dtq2b8cd/lista-de-produtos2.png)](https://postimg.cc/kDpR8R4X)
 
 # Banco de Dados H2
 
