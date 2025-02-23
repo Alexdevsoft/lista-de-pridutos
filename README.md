@@ -5,7 +5,6 @@ Este é um projeto de um **Sistema de Lista de Produtos** desenvolvido em **Java
 # Sistema de Lista de Produtos
 
 [](https://github.com/Alexdevsoft/sistema-de-lista-produtos/actions/workflows/build.yml/badge.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java Version](https://img.shields.io/badge/Java-17-blue.svg)](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
 [![Powered by Spring Boot](https://img.shields.io/badge/Powered%20by-Spring%20Boot-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![Database-H2](https://img.shields.io/badge/Database-H2-blue.svg)](https://www.h2database.com)
