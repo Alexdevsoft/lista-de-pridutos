@@ -1,3 +1,7 @@
+/**
+ * @autor Alex
+ * @since 2025-02-23
+ */
 package com.shoppinglist.lista_de_compras.controller;
 
 import java.util.List;

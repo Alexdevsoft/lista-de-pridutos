@@ -1,7 +1,7 @@
 /* styles.css */
-body {
+.corpo {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	background-color: #C0C0C0;
+	background: #C0C0C0;
 	color: #333;
 	margin: 0;
 	padding: 0;
@@ -13,35 +13,46 @@ body {
 	padding: 20px;
 }
 
-/* Estilos da tabela */
-table {
-	width: 100%;
-	border-collapse: collapse;
-	margin: 20px 0;
-	background-color: #fff;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-	border-radius: 8px;
-	overflow: hidden;
+
+/* Estilos personalizados para a tabela */
+.custom-table {
+    width: 100%;
+	border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombreamento externo suave */
 }
 
-table th,
-table td {
-	padding: 12px 15px;
-	text-align: left;
+.custom-table th,
+.custom-table td {
+    border: 1px solid #C0C0C0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
-table th {
-	background-color: #007bff;
-	color: #fff;
-	font-weight: bold;
+.custom-table tr, .custom-table td:first-child {
+    border-left: 1px solid #C0C0C0;
 }
 
-table tbody tr:nth-child(even) {
-	background-color: #f8f9fa;
+.custom-table tr, .custom-table td:last-child {
+    border-right: 1px solid #e0e0e0;
 }
 
-table tbody tr:hover {
-	background-color: #e9ecef;
+.custom-table th {
+    background-color: #f8f9fa; /* Cor de fundo para o cabeçalho */
+    font-weight: bold;
+    color: #333; /* Cor do texto no cabeçalho */
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor de fundo alternada para linhas pares */
+}
+
+.custom-table tbody tr:hover {
+    background-color: #A9A9A9;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -89,37 +100,38 @@ h1 {
 }
 
 .btn-danger {
-    background-color: #dc3545;
-    color: #fff;
+	background-color: #dc3545;
+	color: #fff;
 }
 
 .btn-danger:hover {
-    background-color: #c82333;
+	background-color: #c82333;
 }
 
-.btn-edit, .btn-delete {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 0 5px;
-    transition: color 0.3s ease;
+.btn-edit,
+.btn-delete {
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 0 5px;
+	transition: color 0.3s ease;
 }
 
 .btn-edit {
-    color: #28a745;
+	color: #28a745;
 }
 
 .btn-edit:hover {
-    color: #218838;
+	color: #218838;
 }
 
 .btn-delete {
-    color: #dc3545;
+	color: #dc3545;
 }
 
 .btn-delete:hover {
-    color: #c82333;
+	color: #c82333;
 }
 
 .btn-primary {
@@ -128,7 +140,7 @@ h1 {
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
+	background-color: #0056b3;
 }
 
 .modal {
@@ -177,7 +189,6 @@ h1 {
 	color: #000;
 }
 
-/* Estilos para o formulário dentro do modal */
 .form-group {
 	margin-bottom: 15px;
 }
@@ -200,9 +211,9 @@ h1 {
 }
 
 .form-group input:focus {
-    border-color: #007bff;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+	border-color: #007bff;
+	outline: none;
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 .btn-primary {
@@ -220,32 +231,32 @@ h1 {
 
 /* Estilos do cabeçalho */
 .header {
-    background-color: #007bff;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    border-radius: 8px;
-    margin-bottom: 20px;
+	background-color: #007bff;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	border-radius: 8px;
+	margin-bottom: 20px;
 }
 
 .header h1 {
-    margin: 0;
-    font-size: 44px;
-    font-weight: bold;
+	margin: 0;
+	font-size: 44px;
+	font-weight: bold;
 }
 
 /* Estilos do botão "Adicionar" */
 .btn-add {
-    background-color: #28a745;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+	background-color: #28a745;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
 }
 
 .btn-add:hover {
-    background-color: #218838;
+	background-color: #218838;
 }
