@@ -156,12 +156,6 @@ Contribuições são bem-vindas! Siga os passos abaixo:
 
 ---
 
-# Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 # Contato
 
 - **Nome:** Alexsandro Almeida
