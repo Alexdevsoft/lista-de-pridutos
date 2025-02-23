@@ -90,6 +90,8 @@ h1 {
 	opacity: 0;
 	transition: transform 1s ease-out, opacity 1s ease;
 	overflow-y: auto;
+	max-width: 600px;
+	width: 90%;
 }
 
 .modal.show .modal-content {
